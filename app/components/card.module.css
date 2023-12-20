@@ -5,6 +5,7 @@
   padding: 16px 20px;
   background: var(--color-white);
   box-shadow: var(--elevation-1);
+  margin-bottom: 24px;
 }
 
 .cardHeader {

@@ -1,8 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Card from "@/app/ui/card";
+import Card from "@/app/components/card";
+import { getSortedTasksData } from "@/app/lib/happyPathTasks";
 
-export default function Home() {
+
+export async function getHappyPathTasks() {
+  const tasksData = getSortedTasksData();
+  return tasksData;
+}
+
+export default async function Home() {
+  const tasks = await getHappyPathTasks();
   return (
     <main className={styles.main}>
       <header className={styles.header}>
@@ -11,6 +19,7 @@ export default function Home() {
           height={32}
           width={122}
           className={styles.logo}
+          alt="Vintage SKIBACS logo"
         />
       </header>
       <h1 className={styles.headline}>Field Manual</h1>
@@ -20,7 +29,28 @@ export default function Home() {
       </p>
       <section className={styles.happyPath}>
         <h4 className={styles.happyPathHeadline}>happy path</h4>
-        <Card />
+        <div className={styles.happyPathCards}>
+          {tasks.map(
+            ({
+              title,
+              description,
+              slug,
+              id,
+              fundamental,
+              skills
+            }) => (
+              <Card
+                key={id}
+                title={title}
+                description={description}
+                slug={slug}
+                num={id}
+                fundamental={fundamental}
+                skills={skills}
+              />
+            )
+          )}
+        </div>
       </section>
     </main>
   );

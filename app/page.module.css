@@ -34,3 +34,8 @@
   text-transform: uppercase;
   font-size: var(--font-size-sm);
 }
+
+.happyPathCards {
+  display: flex;
+  flex-direction: column;
+}
