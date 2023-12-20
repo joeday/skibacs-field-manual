@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Card from "./ui/card";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </p>
       <section className={styles.happyPath}>
         <h4 className={styles.happyPathHeadline}>happy path</h4>
+        <Card />
       </section>
     </main>
   );

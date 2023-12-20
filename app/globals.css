@@ -1,6 +1,6 @@
 :root {
   --color-black: #000;
-  --color-black: #fff;
+  --color-white: #fff;
   --color-accent: #396c8a;
   --color-accent-10: #f8fcff;
   --color-dot: #ececec;
@@ -16,6 +16,9 @@
   --font-size-md: 16px;
   --font-size-sm: 14px;
   --font-size-xs: 10px;
+
+  --font-family-primary: var(--font-jost);
+  --font-family-secondary: var(--font-caslon);
 }
 
 html,
@@ -29,7 +32,7 @@ body {
   background-color: var(--color-accent-10);
   background-image: url("../public/dot.png");
   background-repeat: repeat;
-  font-family: "Futura";
+  font-family: var(--font-family-primary);
   color: var(--color-accent);
 }
 
