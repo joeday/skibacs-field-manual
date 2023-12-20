@@ -1,5 +1,5 @@
 import "./globals.css";
-import { jost, caslon } from "./ui/fonts";
+import { jost, caslon } from "../app/ui/fonts";
 
 export const metadata = {
   title: "SKIBACS Instructor Field Manual",
