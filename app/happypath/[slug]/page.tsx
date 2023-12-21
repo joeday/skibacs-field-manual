@@ -8,7 +8,7 @@ export async function generateStaticParams() {
   return tasks;
 }
 
-export async function getHappyPathTaskData(slug: string) {
+async function getHappyPathTaskData(slug: string) {
   const taskData = await getTaskData(slug);
   return taskData;
 }
