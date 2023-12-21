@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./page.module.css";
 import { getAllTaskIds, getTaskData } from "@/app/lib/happyPathTasks";
 
@@ -19,12 +20,21 @@ export default async function Page({ params }) {
   return (
     <main className={styles.main}>
       <header className={styles.header}>
-        <Link href="/">Home</Link>
+        <Image
+          src="/arrow_back.svg"
+          height={16}
+          width={16}
+          alt="back arrow"
+          className={styles.backArrow}
+        />
+        <Link className={styles.backLink} href="/">
+          Home
+        </Link>
       </header>
-      <h1>{task.title}</h1>
-      <p>Fundamental {task.fundamental}</p>
+      <h1 className={styles.title}>{task.title}</h1>
+      <p className={styles.metadata}>Fundamental {task.fundamental}</p>
       <div
-        className={styles.episodeText}
+        className={styles.taskContent}
         dangerouslySetInnerHTML={{ __html: task.contentHtml }}
       />
     </main>
