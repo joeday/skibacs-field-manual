@@ -16,13 +16,11 @@
   --font-size-lg: 24px;
   --font-size-md: 20px;
   --font-size-sm: 16px;
-  --font-size-xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-xxs: 10px;
 
-  --font-family-primary: var(--font-jost);
+  --font-family-primary: var(--font-gabarito);
   --font-family-secondary: var(--font-caslon);
-
-  --dot-size: 3px;
-  --dot-space: 36px;
 
 }
 
@@ -41,8 +39,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  transform: translate3d(0,0,0);
--webkit-transform: translate3d(0,0,0);
 }
 
 a {

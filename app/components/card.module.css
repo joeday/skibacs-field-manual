@@ -11,6 +11,8 @@
 .cardHeader {
   font-size: var(--font-size-sm);
   margin: 0 0 2px 0;
+  letter-spacing: .25px;
+  text-transform: uppercase;
 }
 
 .description {

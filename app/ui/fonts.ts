@@ -1,8 +1,8 @@
-import { Jost, Libre_Caslon_Text } from "next/font/google";
+import { Gabarito, Libre_Caslon_Text } from "next/font/google";
 
-export const jost = Jost({
+export const gabarito = Gabarito({
   subsets: ["latin"],
-  variable: "--font-jost",
+  variable: "--font-gabarito",
 });
 
 export const caslon = Libre_Caslon_Text({

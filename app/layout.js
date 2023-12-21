@@ -1,5 +1,5 @@
 import "./globals.css";
-import { jost, caslon } from "@/app/ui/fonts";
+import { gabarito, caslon } from "@/app/ui/fonts";
 
 export const metadata = {
   title: "SKIBACS Instructor Field Manual",
@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${jost.variable} ${caslon.variable}`}>
+    <html lang="en" className={`${gabarito.variable} ${caslon.variable}`}>
       <body>{children}</body>
     </html>
   );
