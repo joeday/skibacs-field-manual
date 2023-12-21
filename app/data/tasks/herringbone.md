@@ -20,4 +20,4 @@ Clean lines left in the snow with no smearing. Skis that a smearing or slipping 
 
 ### Other things you can do
 
-Walk like a penguin! Pair them up and have them chase each other around and play tag. They might actuall start skating!
+Walk like a penguin! Pair them up and have them chase each other around and play tag. They might actually start skating!

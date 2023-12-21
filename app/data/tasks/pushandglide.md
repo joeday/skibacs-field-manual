@@ -12,11 +12,11 @@ Helps students begin to experience movement, balance, and stance on one ski.
 
 ### How to do it
 
-With one ski on, have them glide on a gentle slope while maintaining shin/cuff pressure. When gliding, demonstate keeping you foot without the ski behind the other foot as this helps keep shin/cuff pressure.
+With one ski on, have them glide on a gentle slope while maintaining shin/cuff pressure. When gliding, demonstate keeping your foot without the ski behind the other foot as this helps keep shin/cuff pressure.
 
 ### What to look for
 
-Can they a clean line behind?
+Can they leave a clean line behind?
 
 ### Other things you can do
 

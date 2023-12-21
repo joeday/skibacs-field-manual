@@ -12,7 +12,7 @@ Help students get used to the feel of their feet in boots. Boots are the one of 
 
 ### How to do it
 
-After checking that their boots are on the correct feet, buckled, and properly sized to their bindings, have them do a few movements to develop familiarity: walk around, tip them from side to side, pivot them to make bowties in the snow, hop in place, slide on boots only.
+After checking that their boots are on the correct feet, buckled, have them do a few movements to develop familiarity: walk around, tip them from side to side, pivot them to make bowties in the snow, hop in place, slide on boots only.
 
 ### What to look for
 

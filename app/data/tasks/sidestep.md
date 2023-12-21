@@ -8,7 +8,7 @@ fundamental: "2"
 
 ### Why it's important
 
-Equips studendts to be able to move up and down the fall line when needed, by developing a feel for using the edges of their skis.
+Equips students to be able to move up and down the fall line when needed, by developing a feel for using the edges of their skis.
 
 ### How to do it
 
