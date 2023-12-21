@@ -4,7 +4,7 @@ import Card from "@/app/components/card";
 import { getSortedTasksData } from "@/app/lib/happyPathTasks";
 
 
-export async function getHappyPathTasks() {
+async function getHappyPathTasks() {
   const tasksData = getSortedTasksData();
   return tasksData;
 }
