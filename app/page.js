@@ -35,18 +35,13 @@ export default async function Home() {
               title,
               description,
               slug,
-              id,
-              fundamental,
-              skills
+              id
             }) => (
               <Card
                 key={id}
                 title={title}
                 description={description}
                 slug={slug}
-                num={id}
-                fundamental={fundamental}
-                skills={skills}
               />
             )
           )}

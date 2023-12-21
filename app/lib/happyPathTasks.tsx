@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import Task from "@/app/types/taskData";
 
 const tasksDirectory = path.join(process.cwd(), "/app/data/tasks");
 
@@ -37,7 +38,7 @@ export function getSortedTasksData() {
   });
 }
 
-export function getAllPostIds() {
+export function getAllTaskIds() {
   const fileNames = fs.readdirSync(tasksDirectory);
 
   // Returns an array that looks like this:
@@ -62,7 +63,7 @@ export function getAllPostIds() {
   });
 }
 
-export async function getPostData(id) {
+export async function getTaskData(id: string): Promise<Task> {
   const fullPath = path.join(tasksDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
@@ -74,10 +75,18 @@ export async function getPostData(id) {
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
+  const title = matterResult.data.title;
+  const description = matterResult.data.description;
+  const fundamental = matterResult.data.fundamental;
+  const slug = matterResult.data.slug;
 
   // Combine the data with the id and contentHtml
   return {
     id,
+    title,
+    description,
+    fundamental,
+    slug,
     contentHtml,
     ...matterResult.data,
   };

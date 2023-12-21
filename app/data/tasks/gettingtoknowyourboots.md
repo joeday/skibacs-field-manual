@@ -1,10 +1,9 @@
 ---
 title: "Getting to know your boots"
-description: "Help students get used to the feel of their feet in boots."
+description: "Because ski boots feel weird and awkward at first"
 slug: "gettingtoknowyourboots"
 id: "01"
 fundamental: "1"
-skills: [""]
 ---
 
 ## Why it's important

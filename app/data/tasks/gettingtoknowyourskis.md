@@ -1,10 +1,9 @@
 ---
 title: "Getting to know your skis"
-description: "Help students get used to the feel of having skis on their feet."
+description: "Gaining familiarity with having skis on your feet"
 slug: "gettingtoknowyourskis"
 id: "02"
 fundamental: "1"
-skills: [""]
 ---
 
 ### Why it's important
