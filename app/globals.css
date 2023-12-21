@@ -38,6 +38,8 @@ body {
     url('../public/noise.png') repeat,
     url('../public/dot.png') repeat, 
     linear-gradient(180deg, var(--color-accent-10), var(--color-white), var(--color-accent-10));
+  background-color: var(--color-accent-10);
+
 }
 
 a {
