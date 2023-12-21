@@ -2,8 +2,9 @@
   --color-black: #000;
   --color-white: #fff;
   --color-accent: #396c8a;
-  --color-accent-10: #f8fcff;
-  --color-dot: #ececec;
+  --color-accent-10: #E5ECF1;
+  --color-dot: #fff;
+  --color-transparent: rgba(255,255,255,0);
 
   --elevation-1: 0px 4px 4px 0px rgba(57, 108, 138, 0.12);
   --elevation-nav: drop-shadow(0px 2px 12px rgba(57, 108, 138, 0.9));
@@ -19,6 +20,10 @@
 
   --font-family-primary: var(--font-jost);
   --font-family-secondary: var(--font-caslon);
+
+  --dot-size: 3px;
+  --dot-space: 36px;
+
 }
 
 html,
@@ -29,11 +34,9 @@ body {
 }
 
 body {
-  background-color: var(--color-accent-10);
-  background-image: url("../public/dot.png");
-  background-repeat: repeat;
   font-family: var(--font-family-primary);
   color: var(--color-accent);
+  background: url('../public/dot_grid_bg_noise.png') fixed var(--color-accent-10);
 }
 
 a {
