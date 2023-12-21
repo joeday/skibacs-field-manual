@@ -32,7 +32,7 @@
 
 .happyPathHeadline {
   text-transform: uppercase;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
 }
 
 .happyPathCards {
