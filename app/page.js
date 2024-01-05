@@ -28,7 +28,7 @@ export default async function Home() {
         excellent instruction for their students.
       </p>
       <section className={styles.happyPath}>
-        <h4 className={styles.happyPathHeadline}>happy path</h4>
+        <h4 className={styles.happyPathHeadline}>The happy path</h4>
         <div className={styles.happyPathCards}>
           {tasks.map(
             ({
